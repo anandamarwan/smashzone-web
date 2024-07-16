@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../components/shared/header";
+import { Footer } from "../components/shared/footer";
 
 export function RootRoute() {
   return (
@@ -10,7 +11,7 @@ export function RootRoute() {
         <Outlet />
       </main>
 
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
