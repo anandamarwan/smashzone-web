@@ -1,15 +1,16 @@
 import { Outlet } from "react-router-dom";
+import { Header } from "../components/shared/header";
 
 export function RootRoute() {
   return (
     <div>
-      <header>HEADER</header>
+      <Header />
 
       <main>
         <Outlet />
       </main>
 
-      <footer>FOOTER</footer>
+      <footer></footer>
     </div>
   );
 }
